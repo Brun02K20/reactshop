@@ -1,12 +1,11 @@
 import React from 'react';
 
-function NotFound() {
-    return (
-        <div>
-            <h1> 404 </h1>
-            <p>Error: Not Found</p>
-        </div>
-    );
-};
+const NotFound = () => {
+	return (
+		<div>
+			No encontrado, error 404.
+		</div>
+	);
+}
 
-export {NotFound};
+export default NotFound;
