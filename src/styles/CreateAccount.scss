@@ -50,15 +50,16 @@
 	margin-bottom: 22px;
 }
 .primary-button {
-	background-color: var(--hospital-green);
+	background-color: var(--dark-green);
 	border-radius: 8px;
-	border: none;
+	border: 2px solid lightgreen;
 	color: var(--white);
 	width: 100%;
 	cursor: pointer;
 	font-size: var(--md);
 	font-weight: bold;
 	height: 50px;
+	box-shadow: 0 0 10px green;
 }
 .login-button {
 	margin-top: 14px;

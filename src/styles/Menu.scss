@@ -3,7 +3,7 @@
 .Menu {
 	width: 100px;
 	height: auto;
-	border: 1px solid var(--very-light-pink);
+	border: 2px solid var(--dark-green);
 	border-radius: 6px;
 	padding: 20px 20px 0 20px;
 }
@@ -21,15 +21,17 @@
 }
 .Menu ul li:last-child {
 	padding-top: 20px;
-	border-top: 1px solid var(--very-light-pink);
+	border-top: 1px solid var(--dark-green);
 }
 .Menu ul li:last-child a {
-	color: var(--hospital-green);
+	color: var(--dark-green);
 	font-size: var(--sm);
+	text-shadow: 0 0 2px var(--dark-green)
 }
 .Menu ul li a {
-	color: var(--back);
+	color: var(--white);
 	text-decoration: none;
 	margin-bottom: 20px;
 	display: inline-block;
+	text-shadow: 0 0 2px var(--white);
 }

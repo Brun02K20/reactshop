@@ -2,11 +2,12 @@
 
 .ProductItem {
 	width: 240px;
+	border: 1px solid white;
+	box-shadow: 0 0 4px white;
 }
 .ProductItem img {
 	width: 240px;
 	height: 240px;
-	border-radius: 20px;
 	object-fit: cover;
 }
 .product-info {
@@ -27,6 +28,7 @@
 	font-size: var(--md);
 	margin-top: 0;
 	margin-bottom: 4px;
+	color: var(--very-light-pink);
 }
 .product-info div p:nth-child(2) {
 	font-size: var(--sm);

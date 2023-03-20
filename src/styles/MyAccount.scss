@@ -21,6 +21,8 @@
 	font-size: var(--lg);
 	margin-bottom: 36px;
 	text-align: start;
+	color: var(--white);
+	text-shadow: 0 0 3px var(--dark-green);
 }
 .form {
 	display: flex;
@@ -43,13 +45,14 @@
 .secondary-button {
 	background-color: var(--white);
 	border-radius: 8px;
-	border: 1px solid var(--hospital-green);
-	color: var(--hospital-green);
+	border: 1px solid var(--dark-green);
+	color: var(--dark-green);
 	width: 100%;
 	cursor: pointer;
 	font-size: var(--md);
 	font-weight: bold;
 	height: 50px;
+	box-shadow: 0 0 10px var(--hospital-green);
 }
 .login-button {
 	margin-top: 14px;

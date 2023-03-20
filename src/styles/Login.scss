@@ -22,7 +22,7 @@
 	flex-direction: column;
 }
 .form a {
-	color: var(--hospital-green);
+	color: var(--dark-green);
 	font-size: var(--sm);
 	text-align: center;
 	text-decoration: none;
@@ -32,23 +32,26 @@
 	font-size: var(--sm);
 	font-weight: bold;
 	margin-bottom: 4px;
+	text-shadow: 0 0 3px var(--dark-green);
+	color: var(--white);
 }
 .input {
 	background-color: var(--text-input-field);
-	border: none;
+	border: 4px solid var(--dark-green);
 	border-radius: 8px;
 	height: 30px;
 	font-size: var(--md);
 	padding: 6px;
 	margin-bottom: 12px;
+	box-shadow: 0 0 5px var(--dark-green);
 }
 .input-email {
 	margin-bottom: 22px;
 }
 .primary-button {
-	background-color: var(--hospital-green);
+	background-color: var(--dark-green);
 	border-radius: 8px;
-	border: none;
+	border: 4px solid var(--light-green);
 	color: var(--white);
 	width: 100%;
 	cursor: pointer;
@@ -60,12 +63,13 @@
 	background-color: var(--white);
 	border-radius: 8px;
 	border: 1px solid var(--hospital-green);
-	color: var(--hospital-green);
+	color: var(--dark-green);
 	width: 100%;
 	cursor: pointer;
 	font-size: var(--md);
 	font-weight: bold;
 	height: 50px;
+	text-shadow: 0 0 3px lightgreen;
 }
 .login-button {
 	margin-top: 14px;
