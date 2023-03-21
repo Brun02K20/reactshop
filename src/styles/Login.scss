@@ -11,7 +11,7 @@
 	grid-template-rows: auto 1fr auto;
 	width: 300px;
 }
-.logo {
+.login-logo {
 	width: 150px;
 	margin-bottom: 48px;
 	justify-self: center;
@@ -76,7 +76,7 @@
 	margin-bottom: 30px;
 }
 @media (max-width: 640px) {
-	.logo {
+	.login-logo {
 		display: block;
 	}
 }
