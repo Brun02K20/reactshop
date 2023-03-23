@@ -5,11 +5,11 @@ import close from "@icons/icon_close.png";
 
 import { AppContext } from "../context/AppContext";
 
-const OrderItem = ({ product }) => {
+const OrderItem = ({ product, indexValue }) => {
   const { removeFromShopCart } = useContext(AppContext);
 
-  const handleRemoveFromShopCart = (product) => {
-    removeFromShopCart(product);
+  const handleRemoveFromShopCart = (index) => {
+    removeFromShopCart(index);
   };
 
   return (
@@ -23,7 +23,7 @@ const OrderItem = ({ product }) => {
         src={close}
         alt="close"
         className="closeImg"
-        onClick={() => handleRemoveFromShopCart(product)}
+        onClick={() => handleRemoveFromShopCart(indexValue)}
       />
     </div>
   );
