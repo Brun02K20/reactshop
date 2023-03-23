@@ -8,6 +8,15 @@ import { AppContext } from "../context/AppContext";
 
 const MyOrder = () => {
   const { state } = useContext(AppContext);
+
+  const sumTotal = () => {
+    let total = 0;
+    state.cart.forEach((item) => {
+      total += item.price;
+    });
+    return total;
+  };
+
   return (
     <aside className="MyOrder">
       <div className="title-container">
@@ -23,7 +32,7 @@ const MyOrder = () => {
           <p>
             <span>Total</span>
           </p>
-          <p>$560.00</p>
+          <p>${sumTotal()}</p>
         </div>
         <button className="primary-button">Checkout</button>
       </div>

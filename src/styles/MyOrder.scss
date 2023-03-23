@@ -57,6 +57,28 @@
 	font-weight: bold;
 	height: 50px;
 }
+
+.my-order-content::-webkit-scrollbar {
+	width: 0.8rem;
+}
+
+.my-order-content::-webkit-scrollbar-track {
+	background: var(--white);
+	border-radius: 1rem;
+}
+
+.my-order-content::-webkit-scrollbar-thumb {
+	background-color: var(--dark-green);
+	border-radius: 20px;
+}
+
+.my-order-content {
+	height: 300px;
+	overflow-y: scroll !important;
+	overflow-x: hidden !important;
+}
+
+
 @media (max-width: 640px) {
 	.MyOrder {
 		width: 100%;
